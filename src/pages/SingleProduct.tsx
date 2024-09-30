@@ -6,7 +6,7 @@ import { Separator } from "@/components/ui/separator";
 import { CartItem, customFetch, formatAsDollars, type SingleProductResponse } from "@/utils";
 import { SelectProductAmount, SelectProductColor } from "@/components";
 import { Mode } from "@/components/SelectProductAmount";
-import { toast } from "sonner";
+
 import { useAppDispatch } from "@/hooks";
 import { addItem } from "@/features/cart/cartSlice";
 
